@@ -13,33 +13,3 @@ data class UserRequest(
         var address: String? = null,
         var phoneNumber: String? = null,   // phone_number
 )
-
-/*
-{
-    "result": {
-        "result_code": "OK",
-        "result_message": "성공",
-    },
-    "description": "~~~~~~",
-    "user": [
-        {
-            "name": "rimi",
-            "age": "18",
-            "email": "",
-            "phoneNumber": ""
-        },
-        {
-            "name": "dd",
-            "age": "11",
-            "email": "",
-            "phoneNumber": ""
-        },
-        {
-            "name": "aa",
-            "age": "23",
-            "email": "",
-            "phoneNumber": ""
-        },
-    ]
-}
-*/
