@@ -58,6 +58,6 @@ class ResponseApiController {
     // 4. delete 500
     @DeleteMapping("/{id}")
     fun deleteMapping(@PathVariable id: Int): ResponseEntity<Any> {
-        return ResponseEntity.status(500).body(null)
+        return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(null)
     }
 }
